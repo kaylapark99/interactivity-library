@@ -1,0 +1,24 @@
+.delete-popup {
+    position: absolute;
+    width: 500px;
+    background-color: #a5ffd6;
+    padding: 24px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.delete-popup button {
+    color: #fcfaf7;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+    margin-left: 12px;
+    margin-top: 48px;
+}
+
+.delete-popup button:hover {
+    background-color: rgba(44, 51, 62, 0.85);
+}

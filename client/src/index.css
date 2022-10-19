@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Avenir Next", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #2c333e;
+  overflow-x: hidden;
+}
+

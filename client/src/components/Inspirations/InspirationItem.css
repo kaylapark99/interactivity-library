@@ -1,0 +1,94 @@
+.inspiration-item {
+  margin: 1rem 1rem;
+  background-color: #fcfaf7;
+  color: #2c333e;
+  flex: 1 1 0px;
+  min-width: 400px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.inspiration-item__description {
+  padding: 16px;
+  height: 100%;
+}
+
+.tag-label {
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.tags {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.inspiration-tags {
+  background-color: #a5ffd6;
+}
+
+.project-tags {
+  background-color: #ff7168;
+}
+
+.icon {
+  width: 15px;
+  float: right;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 65%;
+}
+
+#edit-icon {
+  width: 19px;
+  margin-right: 8px;
+}
+  
+.inspiration-item h2 {
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.inspiration-item__comment {
+  word-break: break-all;
+}
+
+.inspiration-item button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #2c333e;
+  background-color: #2c333e;
+}
+
+.inspiration-item button a {
+  color: #fcfaf7;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.inspiration-item button:hover {
+  background-color: rgba(44, 51, 62, 0.85);
+}
+
+.inspiration-image {
+  width: 100%;
+  padding-top: 24px;
+}
+
+.background-popup {
+  background-color: #2c333e;
+  opacity: 90%;
+  position: fixed;
+  width: 100vw;
+  height: 100vw;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}

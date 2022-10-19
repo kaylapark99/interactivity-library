@@ -1,0 +1,24 @@
+.inspiration-filter {
+    color: #fcfaf7;
+}
+  
+.inspiration-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.inspiration-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin: 0 1rem;
+}
+
+.inspiration-filter select {
+  font: inherit;
+  padding: 0.5rem 0.5rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}
